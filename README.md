@@ -1,2 +1,3 @@
-# BTL-Ph-t-tri-n-ng-d-ng-web
+# BTL-Phát triển ứng dụng web
+
 Đăng ký lịch thi
