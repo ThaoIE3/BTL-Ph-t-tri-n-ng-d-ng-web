@@ -1,16 +1,3 @@
-<?php 
-	$connect = mysqli_connect('localhost','root','','account');
-	mysqli_select_db($connect,'root');
-	if(isset($_POST[dangnhap])){
-		$name = mysql_real_escape_string(connect,$_POST["name"]);
-		$pass = mysql_real_escape_string(connect,$_POST["pass"]);
-		$sql = "INSERT INTO account(name.password) value(
-			"$name",
-			"$pass"
-	)"
-	}
-
- ?>
 
 <!DOCTYPE html>
 <html>

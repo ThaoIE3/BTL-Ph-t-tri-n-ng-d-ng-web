@@ -7,19 +7,19 @@
 </head>
 <body>
 	<header>
-		<a href="#" title>
+		<a href="#" title class="a-title">
 			<img src="theme/frontend/images/logo.png">
 		</a>
 		<h1>quản trị viên</h1>
 		<div class="row option">
 			<div class="col-lg-4 col-md-4">
-				<a href="http://localhost/btl-ver2/themsinhvien.php" class="smooth" title>THÊM THÔNG TIN SINH VIÊN</a>
+				<a href="http://localhost/btl-ver2/themsinhvien.php" class="smooth" title>DANH SÁCH MÔN THI HỌC PHẦN</a>
 			</div>
 			<div class="col-lg-4 col-md-4">
-				<a href="#" class="smooth" title>SỬA THÔNG TIN SINH VIÊN</a>
+				<a href="#" class="smooth" title>BỔ SUNG LỊCH THI</a>
 			</div>
 			<div class="col-lg-4 col-md-4">
-				<a href="#" class="smooth" title>XÓA THÔNG TIN SINH VIÊN</a>
+				<a href="#" class="smooth" title>ĐIỀU CHỈNH LỊCH THI</a>
 			</div>
 		</div>
 	</header>

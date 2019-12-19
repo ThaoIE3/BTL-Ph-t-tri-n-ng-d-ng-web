@@ -8,6 +8,8 @@ header {
     margin-left: 21px;
     font-size: 15px;
     float: left; }
+  header .a-title {
+    float: none !important; }
   header h1 {
     display: inline-block;
     text-transform: uppercase;
