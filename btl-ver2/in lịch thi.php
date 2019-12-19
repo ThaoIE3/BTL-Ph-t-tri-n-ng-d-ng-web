@@ -121,7 +121,7 @@
 			</tr>
 		</tbody>
 	</table>
-	<button type="submit">TẢI XUỐNG</button>
+	<a href="#" class="downl smooth" download>Tải xuống</a>
 
 	<script src="theme/frontend/js/jquery.min.js" defer></script>
 	<script src="theme/frontend/js/bootstrap.min.js" defer></script>

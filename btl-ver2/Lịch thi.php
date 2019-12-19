@@ -36,7 +36,7 @@
 					<a class="smooth" href="#" title>Đổi mật khẩu</a>
 				</li>
 				<li class="exit">
-					<a class="smooth" href="#" title>Thoát</a>
+					<a class="smooth" href="http://localhost/btl-ver2/login.php" title>Thoát</a>
 				</li>
 			</ul>
 		</div>

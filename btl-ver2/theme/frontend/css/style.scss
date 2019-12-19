@@ -4,9 +4,9 @@ header{
     height: 100px;
     a{
     	display: inline-block;
-    	float: left;
     	margin-left: 21px;
     	font-size: 15px;
+    	float: left;
     }
     h1{
     	display: inline-block;
@@ -356,7 +356,70 @@ footer{
 	    margin-bottom: 30px;
     }
 }
-button{
-	padding: 5px 10px;
-    margin-top: 20px;
+
+.downl{
+	padding: 10px;
+    background: #00000029;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    margin: 22px 0 15px 25px;
+}
+.downl:hover{
+	text-decoration: none;
+	color: #000;
+	background: #00000052;
+}
+.option{
+	margin-top: 30px;
+	a{
+		background: #007f48;
+	    padding: 10px 20px 10px;
+	    border-radius: 7px;
+	    color: #fff;
+	}
+	a:hover{
+		background: #3a8a53;
+		text-decoration: none;
+	}
+}
+form{
+	
+	.text-header{
+		text-transform: uppercase;
+	    margin-top: 30px;
+	    color: #007f48;
+	    text-align: center;
+	    h3{
+	    	font-weight: bold;
+	    }
+	}
+	.info{
+		.ct{
+
+			margin: 20px 0 0px 0px;
+			display: inline-block;
+		}
+	}
+	.submit{
+		text-align: center;
+		margin-top: 30px;
+		input{
+			
+		    background: #007f48;
+		    color: #fff;
+		    border: none;
+		}
+		input:hover{
+			background: #639a63;
+		}
+		.save{
+			margin-right: 10px;
+			padding: 7px 22px;
+		}
+		.cancel{
+			padding: 7px 10px;
+		}
+	}
 }

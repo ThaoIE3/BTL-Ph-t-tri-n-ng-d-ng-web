@@ -36,7 +36,7 @@
 					<a class="smooth" href="#" title>Đổi mật khẩu</a>
 				</li>
 				<li class="exit">
-					<a class="smooth" href="#" title>Thoát</a>
+					<a class="smooth" href="http://localhost/btl-ver2/login.php" title>Thoát</a>
 				</li>
 			</ul>
 		</div>
@@ -46,7 +46,7 @@
 			<table>
 				<tbody>
 					<tr>
-						<td class="first-news"><a href="http://localhost/btl-ver2/home.php">» Hướng dẫn</a></td>
+						<td class="first-news"><a href="#">» Hướng dẫn</a></td>
 					</tr>
 					<tr>
 						<td>» Cập nhật hồ sơ sinh viên</td>

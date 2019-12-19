@@ -36,7 +36,7 @@
 					<a class="smooth" href="#" title>Đổi mật khẩu</a>
 				</li>
 				<li class="exit">
-					<a class="smooth" href="#" title>Thoát</a>
+					<a class="smooth" href="http://localhost/btl-ver2/login.php" title>Thoát</a>
 				</li>
 			</ul>
 		</div>
@@ -113,7 +113,7 @@
 					<table class="table table-bordered">
 						<thead>
 						    <tr>
-						      	<th scope="col">số thứ tự</th>
+						      	<th scope="col">Số thứ tự</th>
 						      	<th scope="col">Mã học phần</th>
 						      	<th scope="col">Môn thi</th>
 						      	<th scope="col">Ngày thi</th>
