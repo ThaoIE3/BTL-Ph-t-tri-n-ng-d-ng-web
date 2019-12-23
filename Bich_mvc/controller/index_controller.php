@@ -32,6 +32,34 @@
             require_once('view/login.php');
         break;
         }
+
+        case 'admin':{
+            # code...
+            if(isset($_POST['admin'])){
+                $user = $_POST['user'];
+                $pass = $_POST['pass'];
+                $num = $db->loginAccept($user , $pass);
+                sleep(2);
+                
+                if($num >0){
+                    $_SESSION['daDangNhap'] = $user;
+                    header('location:index.php?controller=actor&action=quantrivien');
+                }
+                else{
+                    ?>
+                    <script type = "text/javascript">
+                        alert("Mã sinh viên hoặc Mật khẩu không chính xác !!!");
+                     </script>
+                    <?php
+                }
+            }
+
+            require_once('view/login.php');
+            break;
+        }
+            
+
+
         case 'lichthi':{
             $masv = null;
             if(isset($_SESSION['daDangNhap'])){
@@ -92,5 +120,10 @@
             require_once('view/inLichThi.php');
         break;
         }
+        case 'danhsachsinhvien':{
+             # code...
+            break;
+        }
+           
     }
 ?>

@@ -63,11 +63,14 @@
 							</select>
 						</div>
 						<div class="submit row">
-							<div class="col-lg-8 col-md-8">
+							<div class="col-lg-4 col-md-4">
 								<a class="forget-pass smooth" href="#" title>Quên mật khẩu?</a>
 							</div>
 							<div class="col-lg-4 col-md-4">
-								<input type="submit" name="dangnhap" class="login" value="Đăng nhập">
+								<input type="submit" name="admin" class="login" value="Quản trị viên">
+							</div>
+							<div class="col-lg-4 col-md-4">
+								<input type="submit" name="dangnhap" class="login" value="Sinh viên">
 							</div>
 						</div>
 					</div>

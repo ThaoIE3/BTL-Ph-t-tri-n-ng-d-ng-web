@@ -1,7 +1,7 @@
 <?php
 
     class database{
-        private $hostName = 'localhost:3306';
+        private $hostName = 'localhost:3307';
         private $userName = 'root';
         private $pass = '';
         private $dbName = 'bich_mvc';
@@ -115,11 +115,19 @@
              return $data;
 
          }
-         // xác minh tài khoản đăng nhập
+         // xác minh tài khoản đăng nhập sinh viên
         public function loginAccept($masv , $password)
         {
             # code...
             $sql = "select * from sinhvien where maSv = '$masv' and passWord = '$password'";
+            $this->execute($sql);
+            $num = $this->numRow();
+            return $num;
+        }
+        // xác minh tài khoản đăng nhập admin
+        public function loginAdmin($user, $pass)
+        {
+            $sql = "select * from sinhvien where user ='$user' and pass='$pass'";
             $this->execute($sql);
             $num = $this->numRow();
             return $num;
@@ -132,6 +140,12 @@
              $this->execute($sql);
              $data = $this->getData();
              return $data;
+         }
+          public function selectdanhsachsinhvien()
+         {
+             # code...
+             $sql = "select * from danhsachsinhvien";
+            return $this->execute($sql);
          }
          
     }
